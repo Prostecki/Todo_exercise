@@ -9,6 +9,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+.flex-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     position: relative;
     width: 500px;
@@ -31,6 +36,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.one-task {
+    display: inline-block;
+    border: .5px solid black;
+    background-color: aquamarine;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 0 10px;
+    position: relative;
+}
+.one-task:hover::before {
+    content: 'X';
+    text-align: end;
+    border: 1px solid black;
+    color: red;
+    cursor: pointer;
+    padding: 5px;
+}
+.checkbox {
+    width: 5px;
+    height: 5px;
+    margin: 0 10px 10px;
+    padding: 5px;
+    background-color: white;
+    border: 0.5px solid black;
+    cursor: pointer;
 }
 .add-task {
     margin: 15px 0;
