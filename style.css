@@ -91,7 +91,6 @@ body {
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.7);
-    display: none;
 }
 .close-window-task {
     position: absolute;
